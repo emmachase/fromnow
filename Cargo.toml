@@ -1,0 +1,14 @@
+[package]
+name = "fromnow"
+version = "0.1.0"
+authors = ["Emma <its.emma.chase@gmail.com>"]
+description = "A tiny utility for quickly calculating future dates"
+repository = "https://github.com/emmachase/fromnow"
+license = "MIT"
+edition = "2018"
+readme = "README.md"
+
+[dependencies]
+structopt = "0.3"
+humantime = "2.0"
+chrono = "0.4"
